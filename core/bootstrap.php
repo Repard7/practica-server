@@ -1,6 +1,6 @@
 <?php
 //Путь до директории с конфигурационными файлами
-const DIR_CONFIG = '/../config';
+const DIR_CONFIG = '/../configs';
 
 //Подключение автозагрузчика composer
 require_once __DIR__ . '/../vendor/autoload.php';
