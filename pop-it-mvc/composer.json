@@ -1,0 +1,23 @@
+{
+    "name": "repard7/practica-server",
+    "description": "Developed application for the discipline: \"УП Программирование на стороне сервера\"",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Repard7",
+            "email": "gracevrostislav5@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+       "psr-4": {
+           "Src\\": "core/Src/",
+           "": "app/"
+       }
+   }
+
+}
